@@ -10,9 +10,9 @@ export const BurgerMenu = styled.div`
   width: 80px;
   height: 50px;
   position: absolute;
-  top: 0px;
+  top: 10px;
+  z-index: 2;
   margin-left: 30px;
-  margin-top: 10px;
   background-color: white;
   border: 1px solid black;
   border-radius: 5px;
@@ -27,10 +27,11 @@ export const BurgerMenu = styled.div`
 export const OptionsMenu = styled.div`
   position: fixed;
   top: 0px;
+  left: 0px;
   width: 240px;
   height: 100vh;
+  z-index: 2;
   background-color: #2b2b2b;
-  display: none;
   .close-btn {
     display: flex;
     align-items: center;
@@ -40,6 +41,8 @@ export const OptionsMenu = styled.div`
     font-size: 25px;
     float: right;
     color: white;
+    position: relative;
+    left: 40px;
     i {
       cursor: pointer;
     }

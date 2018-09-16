@@ -2,10 +2,12 @@
 /* eslint-disable import/no-extraneous-dependencies */
 
 import { combineReducers } from 'redux';
-import headerReducer from '../header/headerReducer';
+import languagesReducer from '../languages/languagesMenuReducer';
+import menuReducer from '../menu/menuReducers';
 
 const rootReducer = combineReducers({
-  language: headerReducer,
+  language: languagesReducer,
+  content: menuReducer,
 });
 
 export default rootReducer;

@@ -11,5 +11,9 @@ module.exports = {
     "import/alias": {
       "modules": "./node_modules"
     }
+  },
+  "globals": {
+    "TweenMax": true,
+    "Elastic": true
   }
 };
