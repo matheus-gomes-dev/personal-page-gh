@@ -66,8 +66,8 @@ class Languages extends Component {
           <img
             alt="Country's Language Flag"
             src={currentLanguage === 'pt' ?
-              'https://cdn.rawgit.com/matheus-lima92/6c6d011534abc82e6aff4a562bea42e9/raw/eec0fe7f122b9bb4aac735e37f432253e3c58b1c/brasil.svg' :
-              'https://cdn.rawgit.com/matheus-lima92/a2c5b8ae266a98b57f4ca2604d35bfab/raw/75503e0428c2a55fbfe015c949506941a895c0d3/eua.svg'
+              'https://svgur.com/i/9Bw.svg' :
+              'https://svgur.com/i/9B5.svg'
             }
           />
           <i className="fa fa-chevron-down" aria-hidden="true" />
@@ -78,7 +78,7 @@ class Languages extends Component {
                 { /* eslint-enable */}
                 <img
                   alt="Brazil Flag"
-                  src="../../static/ico-bandeira-br.svg"
+                  src="https://svgur.com/i/9Bw.svg"
                 />
                 <span>Português (BR)</span>
               </div>
@@ -87,7 +87,7 @@ class Languages extends Component {
                 { /* eslint-enable */}
                 <img
                   alt="USA Flag"
-                  src="https://cdn.rawgit.com/matheus-lima92/a2c5b8ae266a98b57f4ca2604d35bfab/raw/75503e0428c2a55fbfe015c949506941a895c0d3/eua.svg"
+                  src="https://svgur.com/i/9B5.svg"
                 />
                 <span>English (US)</span>
               </div>
