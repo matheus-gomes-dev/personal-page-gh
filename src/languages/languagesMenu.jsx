@@ -78,7 +78,7 @@ class Languages extends Component {
                 { /* eslint-enable */}
                 <img
                   alt="Brazil Flag"
-                  src="https://cdn.rawgit.com/matheus-lima92/6c6d011534abc82e6aff4a562bea42e9/raw/eec0fe7f122b9bb4aac735e37f432253e3c58b1c/brasil.svg"
+                  src="../../static/ico-bandeira-br.svg"
                 />
                 <span>Português (BR)</span>
               </div>
