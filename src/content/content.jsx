@@ -45,7 +45,7 @@ class Content extends Component {
   render() {
     const { content } = this.state;
     return (
-      <div style={{ border: '1px solid red', height: '30px' }} >
+      <div className="container" >
         { content === 'about' && <About /> }
         { content === 'professionalExp' && <Professional /> }
         { content === 'education' && <Education /> }

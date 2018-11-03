@@ -10,7 +10,7 @@ import WhatsappBadge from '../whatsappBadge/whatsappBadge';
 import Content from '../content/content';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../../node_modules/font-awesome/css/font-awesome.min.css';
-import '../css/custom.css';
+import '../css/main.css';
 
 const props = () => (
   <LocalizeProvider>
